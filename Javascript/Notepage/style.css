@@ -1,0 +1,116 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+#Topic{
+    background-color: lightcoral;
+    padding:20px;
+    box-shadow:lightcoral 0 0 10px;
+}
+
+#Name{
+    font-family: 'Rubik Lines';
+    font-size:300%;
+    display:inline;
+    text-shadow:black 0 0 1px;
+}
+
+#Container{
+    font-family:'Roboto';
+}
+
+#In-Container{
+    color:white;
+    Background-color:Black;
+    border-radius: 10px;
+    display:inline-block;
+    margin:20px;
+    width:25%;
+    padding:10px;
+    box-shadow:grey 0 0 50px;
+    vertical-align: top;    
+}
+#In-Container h1{
+    color:lightcoral;
+    letter-spacing:5px;
+}
+
+#Del{
+    color:black;
+    background-color:red;
+    border-radius:10px;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    box-shadow: grey 0 0 5px ;
+    margin:2px;
+    padding:5px;
+}
+
+#plus{
+    color:black;
+    background-color: lightcoral;
+    border-radius:100%;
+    border-width:0.0000000000000000000001px;
+    border-style:solid;
+    box-shadow:rgba(128, 128, 128, 0.525) 0 0 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:24px;
+    padding-left:25px;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    font-size:100%;
+}
+
+#popup-overley{
+    background-color: black;
+    position:absolute;
+    opacity:0.8;
+    width:100%;
+    height:100%;
+    z-index:1;
+    top:0;
+    left:0;
+    display:none;
+}
+
+#popup-content{
+    background-color: lightcoral;
+    width:40%;
+    padding:40px;
+    border-radius:10px;
+    position:absolute;  
+    top:30%;
+    left: 28.5%;
+    z-index:2;
+    display:none;
+}
+#popup-content input,textarea{
+    background: transparent;
+    color:black;
+    place-content: black;
+    border: none;
+    width: 100%;
+    margin: 10px;
+    margin-left:0%;
+    padding: 5px;
+    padding-left:0%;
+    font-size: 20px;
+    border-bottom: solid black 1.9px;
+}
+#popup-content ::placeholder{
+    color:black;
+}
+
+#popup-content button{
+    background-color: black;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+    border:none;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin:2px;
+}
