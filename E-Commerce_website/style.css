@@ -1,29 +1,95 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-div {
-  background-color: yellow;
-  display: inline-block;
-  padding: 50px;
-  width: 100%;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (max-width: 500px) {
-  div {
-    background-color: blue;
-    display: inline-block;
-    padding: 50px;
-    width: 100%;
+/*NavBar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.Nav-links {
+  display: flex;
+  column-gap: 20px;
+}
+.Nav-links a{
+  text-decoration: none;
+  color:rgb(1, 1, 29);
+}
+.Nav-links a:hover{
+  text-decoration: underline;
+}
+.Nav-Menu-toggle{
+  display:none;
+}
+
+/*side Nav-bar*/
+.Nav-Menu{
+  color:white;
+  background-color: rgb(1, 1, 36);
+  height:100%;
+  width:30%;
+  position: fixed;
+  top:0;
+  left:-60%;
+  padding:20px;
+  transition: 1s;
+}
+
+.Menu-Nav-Link{
+  margin:20px;
+  text-align: center;
+}
+
+.Menu-Nav-links a{
+  text-decoration: none;
+  color:white;
+}
+
+/*Header*/
+.Header{
+  display: flex;
+  justify-content: center;
+  gap:10%;
+  padding:4%;
+}
+.Header-Button{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:orange;
+  border: 0px;
+  box-shadow: orange 0.3px 0.3px 3px, orange -0.3px -0.3px 3px; 
+  margin:70px;
+  margin-top:20px; 
+}
+.Header-Button:hover{
+  text-decoration:underline;
+}
+.Header-Button:active{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 20px 20px -18px inset;
+}
+
+/*Media query*/
+@media screen and (max-width:700px){
+  .Nav-Menu-toggle{
+    display:block;
   }
-}
-
-@media screen and (max-width: 300px) {
-  div {
-    background-color: red;
-    display: inline-block;
-    padding: 50px;
-    width: 100%;
+  .Nav-links{
+    display:none;
+  }
+  .Header img{
+    display:none;
+  }
+  .Header-Button{
+    box-shadow: orange 0px 30px 60px -12px inset, orange 0px 18px 36px -18px inset; ;
   }
 }
