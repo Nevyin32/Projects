@@ -9,10 +9,14 @@ body {
 
 /*NavBar*/
 .navbar {
-  display: flex;
+  background-color: white;
+  position:fixed;
+  display:inline-flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding:1%;
+  padding-right:40%;
+  width:98%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .Nav-links {
@@ -57,8 +61,8 @@ body {
 .Header{
   display: flex;
   justify-content: center;
-  gap:10%;
-  padding:4%;
+  gap:2%;
+  padding-top:80px;
 }
 .Header-Button{
   padding-left: 20px;
@@ -78,6 +82,27 @@ body {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 20px 20px -18px inset;
 }
 
+/*Service*/
+
+.Service{
+  padding:20px;
+}
+.service-container-1{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-container-2{
+  padding:20px;
+  display:flex;
+  justify-content:space-around;
+}
+.service-container-2 div{
+  background-color: rgb(238, 245, 248);
+  border-radius: 5px;
+  margin:5px;
+  padding:10px;
+}
 /*Media query*/
 @media screen and (max-width:700px){
   .Nav-Menu-toggle{
@@ -86,10 +111,22 @@ body {
   .Nav-links{
     display:none;
   }
+  .Header{
+    gap:0;
+  }
   .Header img{
     display:none;
   }
   .Header-Button{
     box-shadow: orange 0px 30px 60px -12px inset, orange 0px 18px 36px -18px inset; ;
+  }
+  .Header-Button:hover{
+    text-decoration:none;
+  }
+  .service-container-1{
+    display:none; 
+  }
+  .service-container-2{
+    flex-direction: column;
   }
 }
