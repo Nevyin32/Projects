@@ -225,9 +225,10 @@ body {
 @media screen and (max-width:800px){
   .Nav-Menu-toggle{
     display:block;
+    margin-right:10px;
   }
   .Nav-links{
-    display:none;
+    display:none; 
   }
   .Header{
     gap:0;
@@ -254,6 +255,6 @@ body {
     text-align: center;
   }
   .product-session{
-    margin-top:10%;
+    margin-top:60px;
   }
 }
