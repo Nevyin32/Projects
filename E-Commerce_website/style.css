@@ -9,7 +9,7 @@ body {
 
 /*NavBar*/
 .navbar {
-  z-index: 999;
+  z-index: 998;
   background-color: white;
   position:fixed;
   top:0;
@@ -47,6 +47,7 @@ body {
   left:-60%;
   padding:20px;
   transition: 1s;
+  z-index: 999;
 }
 
 .Menu-Nav-Link{
@@ -69,6 +70,9 @@ body {
   gap:2%;
   padding-top:80px;
 }
+.Header div p{
+  margin-bottom:10px;
+}
 .Header-Button{
   padding-left: 20px;
   padding-right: 20px;
@@ -80,11 +84,9 @@ body {
   margin:70px;
   margin-top:20px;
   text-decoration: none;
-}
-.Header-Button a{
-  text-decoration: none;
   color:black;
 }
+
 .Header-Button:hover{
   text-decoration:underline;
 }
@@ -139,6 +141,7 @@ body {
 .New-Arrival-Img button a{
   text-decoration: none;
   color:black;
+  
 }
 .New-Arrival-Img button:hover{
   text-decoration:underline;
