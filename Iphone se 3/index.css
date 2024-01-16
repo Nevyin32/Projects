@@ -26,6 +26,17 @@ body{
     background-color:rgb(20, 19, 19);
     box-shadow: 0 0 10px 0 rgba(60, 60, 60, 0.45) inset;
 }
+.speaker{
+    text-align: center;
+    height:9%;
+}
+.speaker img{
+    width: 60px;
+    margin-top:25px;
+    border-radius: 70px;
+}
+
+/*Buttons*/
 .home-button{
     margin-left:40%;
     margin-top:3%;
@@ -42,13 +53,4 @@ body{
 }
 .home-button button:active{
     box-shadow: none;
-}
-.speaker{
-    text-align: center;
-    height:9%;
-}
-.speaker img{
-    width: 60px;
-    margin-top:25px;
-    border-radius: 70px;
 }
