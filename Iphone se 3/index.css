@@ -59,25 +59,3 @@ body div{
 .home-button button:active{
     box-shadow: none;
 }
-.power-button {
-    position: absolute;
-    right:30%;
-    padding-top: 40px;
-    padding-right: 5px;
-    background-color: #B00D23;
-    border-radius: 10px;
-}
-.volume-up{
-    position: absolute; 
-    padding-top: 40px;
-    padding-right: 5px;
-    background-color: #B00D23;
-    border-radius: 10px;  
-}
-.volume-down{
-    position: absolute;
-    padding-top: 40px;
-    padding-right: 5px;
-    background-color: #B00D23;
-    border-radius: 10px; 
-}
