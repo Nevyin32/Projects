@@ -3,7 +3,7 @@ body{
     display:grid;
     justify-content: center;
     align-items: center;
-    width:95%;
+    width:100%;
 }
 body div{ 
     margin-left:3px;
